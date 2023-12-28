@@ -1,6 +1,10 @@
 # TechHub E-Commerce Website
 
-TechHub is an e-commerce website that offers a wide range of tech products. This project demonstrates the integration of Stripe payment gateway for secure online transactions. Additionally, it utilizes MongoDB for storing product and order data and is built with Next.js, a React framework.
+TechHub is an e-commerce website that offers a wide range of tech products. This project is built with Next.js, a React framework for server-side rendering, and integrates with Stripe for secure online payments. It utilizes MongoDB to store product and order data and includes an Admin Dashboard for managing products, orders, and inventory. The content management system (CMS) allows easy management of product information.
+
+## Live Demo
+
+Check out the live demo of the TechHub E-Commerce Website: [Live Demo]([https://your-website-url](https://e-commerce-web-project.payloadcms.app/)
 
 ## Features
 
@@ -11,14 +15,14 @@ TechHub is an e-commerce website that offers a wide range of tech products. This
 - Securely process payments using Stripe
 - Handle Stripe webhook payload for order fulfillment and server-side operations
 - Store product and order data in MongoDB
-- Server-side rendering with Next.js for better performance and SEO
+- Admin dashboard for managing products, orders, and inventory
+- Content management system for easy product management
 
 ## Technologies Used
 
 - Next.js: React framework for server-side rendering
 - Stripe API: Payment processing platform
 - MongoDB: NoSQL database for storing product and order data
-- Webhooks: Handling Stripe webhook payload
 - Other dependencies such as Axios, Express, etc.
 
 ## Getting Started
@@ -37,7 +41,7 @@ TechHub is an e-commerce website that offers a wide range of tech products. This
 
    ```
    npm install
-   ````
+   `````
 
 4. Create a `.env.local` file in the root directory and add the following environment variables:
 
@@ -50,11 +54,15 @@ TechHub is an e-commerce website that offers a wide range of tech products. This
 
 5. Start the development server by running the following command:
 
-   ````
+   ``````
    npm run dev
    ```
 
 6. Open your web browser and visit `http://localhost:3000` to access the TechHub e-commerce website.
+
+### Admin Dashboard
+
+To access the admin dashboard, visit `http://localhost:3000/admin` in your web browser. You will need to authenticate as an admin user to access the dashboard.
 
 ## Usage
 
@@ -63,6 +71,7 @@ TechHub is an e-commerce website that offers a wide range of tech products. This
 3. Proceed to checkout and enter the required shipping and payment information.
 4. Complete the payment using the Stripe payment form.
 5. Upon successful payment, you will receive an order confirmation.
+6. Admin users can log in to the admin dashboard to manage products, orders, and inventory.
 
 ## Webhook Configuration
 
@@ -76,6 +85,14 @@ To handle Stripe webhook payload for order fulfillment and server-side operation
 4. Save the webhook endpoint configuration.
 
 The server will handle the Stripe webhook payload for order fulfillment and other desired server-side operations.
+
+## CMS Configuration
+
+To manage product information using the CMS, follow these steps:
+
+1. Log in to the admin dashboard.
+2. Navigate to the CMS section.
+3. Use the provided interface to add, edit, or delete product information.
 
 ## Contributing
 
@@ -95,4 +112,4 @@ This project is licensed under the [MIT License](LICENSE).
 Feel free to customize and modify this README file according to your specific project requirements and add any additional sections or information as needed.
 ```
 
-You can copy and paste the above markdown content into your README.md file on GitHub.
+You can copy and paste the above markdown content into your README.md file on GitHub. Don't forget to replace `https://your-website-url` in the Live Demo section with the actual URL of your deployed website.
