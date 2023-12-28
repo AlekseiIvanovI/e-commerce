@@ -4,7 +4,7 @@ TechHub is an e-commerce website that offers a wide range of tech products. This
 
 ## Live Demo
 
-Check out the live demo of the TechHub E-Commerce Website: [Live Demo]([https://your-website-url](https://e-commerce-web-project.payloadcms.app/)
+Check out the live demo of the TechHub E-Commerce Website: https://e-commerce-web-project.payloadcms.app/
 
 ## Features
 
