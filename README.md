@@ -98,10 +98,6 @@ To manage product information using the CMS, follow these steps:
 
 Contributions are welcome! If you find any issues or want to enhance the project, feel free to create a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgements
 
 - [Next.js](https://nextjs.org) - React framework for server-side rendering
